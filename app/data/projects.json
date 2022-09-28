@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "name": "O'Book",
+        "resume_stack": "React - NodeJS - PostgreSQL",
+        "stack": "React, Redux, Tailwind, NodeJS, Express, PostgreSQL, Sqicth",
+        "description": "Projet de fin d'étude avec l'école O'Clock - Projet from scratch, groupe de 4 personnes. Cahier des charges, user-stories, MCD / MLD, méthode Agile (4 sprints de 1 semaine). Application destinée aux amateurs de lecture. Création d'un compte utilisateur, ajout de livre à une bibliothèque personnelle (informations livres API ISBNDB), recherche de livre par titre, auteur, numéro ISBN, prêt de livres entre particuliers",
+        "img_url": "img/obook.png",
+        "github_url": "https://github.com/JustineBlanchet/obook-project",
+        "availability": ["https://o-book-front.vercel.app/", "https://obook-api.herokuapp.com/"]
+    },
+    {
+        "id": "2",
+        "name": "Site Portfolio",
+        "resume_stack": "NodeJS - Tailwind - EJS",
+        "stack": "NodeJS, Express, EJS, Tailwind",
+        "description": "Création de mon site personnel portfolio, sous forme d'application monolithique respectant l'architecture MVC",
+        "img_url": "img/portfolio.png"
+    },
+    {
+        "id": "3",
+        "name": "Micro-brasserie La Zoch",
+        "resume_stack": "React - NodeJS - Tailwind",
+        "stack": "React, Redux, Tailwind, NodeJS, Express",
+        "description": "Site vitrine destiné à la promotion de la bière artisanale La Zoch",
+        "img_url": "img/zoch.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Blog - API REST",
+        "resume_stack": "NodeJS - Express - PostgreSQL",
+        "stack": "NodeJS, Express, PostgreSQL, Sqitch, Joi, JS Doc Swagger",
+        "description": "Création d'une API REST dans le cadre d'un projet d'école. API destinée à une application de type blog.",
+        "img_url": "img/blog-api.png",
+        "github_url": "https://github.com/JustineBlanchet/blog-API"
+    }
+]

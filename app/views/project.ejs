@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+
+<section class="flex desktop:flex-row mobile:flex-col justify-evenly my-12">
+    <div class="desktop:w-1/3 mobile:w-full">
+        <h1 class="pb-4 mb-4 uppercase desktop:text-4xl mobile:text-3xl font-bold border-b-2"><%= project.name %></h1>
+        <p class="mb-8"><%= project.description %></p>
+        <h2 class="mb-4 uppercase font-bold text-[#84a98c]">Technologies</h2>
+        <p class="mb-8"><%= project.stack %></p>
+        <h2 class="mb-4 uppercase font-bold text-[#84a98c]">Disponibilité</h2>
+        <% if(project.availability) { %>
+            <% for(const url of project.availability) { %>
+                <a href="<%= url %> " target="_blank"><p><%= url %></p></a>
+            <% } %>
+        <% } else { %>
+            <p>Bientôt disponible</p>
+        <% } %>
+        <h2 class="mb-4 mt-8 uppercase font-bold text-[#84a98c]">Repo</h2>
+        <% if(project.github_url) { %>
+            <a href="<%= project.github_url %>" target="_blank" class="mb-12"><p><%= project.github_url %></p></a>
+        <% } else { %>
+            <p>Bientôt disponible</p>
+        <% } %>
+    </div>
+    <img src="/<%= project.img_url %>" alt="<%= project.name %>_logo" class="desktop:w-1/3 mobile:w-full rounded-lg desktop:mt-0 mobile:mt-4">
+
+</section>
+
+<%- include('partials/footer') %>

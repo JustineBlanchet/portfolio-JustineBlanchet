@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script src="/js/index.js" defer></script>
+    <title>Blanchet Justine | Dev</title>
+</head>
+<body class="box-border desktop:p-4 mobile:p-2 bg-stone-50 font-sans">
+    <header class="flex justify-between desktop:p-12 mobile:p-4 mb-6 rounded-lg shadow shadow-[#cad2c5] items-center">
+        <h2 class="font-bold mobile:text-xl desktop:text-4xl"><a href="/">Blanchet Justine | Développeuse FullStack</a></h2>
+        <nav class="mobile:hidden desktop:block">
+            <ul class="flex">
+                <li class="uppercase text-xl text-[#84a98c] font-bold"><a href="/">Home</a></li>
+                <li class="uppercase text-xl ml-12 font-bold"><a href="/stack">Compétences</a></li>
+                <li class="uppercase text-xl ml-12 font-bold"><a href="/#projects">Projets</a></li>
+            </ul>
+        </nav>
+        <div id="menu-burger" class="mobile:block desktop:hidden cursor-pointer text-3xl ml-4">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+    <nav id="mobile-menu" class="hidden flex flex-col bg-[#cad2c5] rounded rounded-lg w-1/2 fixed shadow p-2 right-2 top-16">
+        <div id="close-button" class="cursor-pointer text-2xl text-left"><i class="fa fa-circle-xmark"></i></div>
+        <a class="block py-2 text-center" href="/">Home</a>
+        <a class="block py-2 text-center" href="/stack">Compétences</a>
+        <a class="block py-2 text-center" href="/#projects">Projets</a>
+    </nav>
+    <main>
