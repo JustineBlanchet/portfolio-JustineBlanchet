@@ -15,7 +15,9 @@
         "resume_stack": "NodeJS - Tailwind - EJS",
         "stack": "NodeJS, Express, EJS, Tailwind",
         "description": "Création de mon site personnel portfolio, sous forme d'application monolithique respectant l'architecture MVC",
-        "img_url": "img/portfolio.png"
+        "img_url": "img/portfolio.png",
+        "github_url": "https://github.com/JustineBlanchet/portfolio-JustineBlanchet",
+        "availability":["https://portfolio-justineblanchet.herokuapp.com"]
     },
     {
         "id": "3",
