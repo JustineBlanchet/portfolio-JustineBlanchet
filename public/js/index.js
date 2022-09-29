@@ -7,6 +7,10 @@ const app = {
         menuBurger.addEventListener('click', app.toggleMobileMenu);
         const closeButton = document.getElementById('close-button')
         closeButton.addEventListener('click', app.toggleMobileMenu);
+        const navLinks = document.querySelectorAll('.nav-link');
+        for (link of navLinks) {
+            link.addEventListener('click',  app.toggleMobileMenu);
+        }
     },
     toggleMobileMenu () {
         const menuBurger = document.getElementById('menu-burger');
